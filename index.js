@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'animator-animejs'
+  name: 'affinity-engine-animator-animejs'
 };

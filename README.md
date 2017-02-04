@@ -1,27 +1,6 @@
-# animator-animejs
+[![npm version](https://badge.fury.io/js/affinity-engine-animator-animejs.svg)](https://badge.fury.io/js/affinity-engine-animator-animejs)
+[![Build Status](https://travis-ci.org/affinity-engine/affinity-engine-animator-animejs.svg?branch=master)](https://travis-ci.org/affinity-engine/affinity-engine-animator-animejs)
 
-This README outlines the details of collaborating on this Ember addon.
+# affinity-engine-animator-animejs
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd animator-animejs`
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+You'll find the interactive guides [here](http://www.affinityengine.org/#/plugins/animator-animejs).

@@ -1,7 +1,7 @@
 {
-  "name": "animator-animejs",
+  "name": "affinity-engine-animator-animejs",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "An Affinity Engine animation adapter for anime.js",
   "keywords": [
     "ember-addon"
   ],
@@ -11,16 +11,18 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/affinity-engine/affinity-engine-animator-velocity",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
+    "ember-animejs": "^0.0.2",
     "ember-cli-babel": "^5.1.7"
   },
   "devDependencies": {
+    "affinity-engine": "git+https://github.com/affinity-engine/affinity-engine.git",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.10.0",
@@ -40,7 +42,6 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "ember-welcome-page": "^1.0.3",
     "loader.js": "^4.0.10"
   },
   "engines": {
