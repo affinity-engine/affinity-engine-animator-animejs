@@ -9,7 +9,7 @@ export default Ember.Service.extend({
       if (options.duration === 0) { options.duration = 1; }
 
       anime({
-        targets: $element.get(0),
+        targets: $element.get ? $element.get(0) : $element,
         complete: resolve,
         ...options,
         ...effect
